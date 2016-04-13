@@ -1,6 +1,6 @@
 <div class="wrapper"> <!-- used for dragging/dropping -->
 	{{#if add_controls}}
-	<input type="text" placeholder="Find in Queue..." class="search_queue"/>
+	<!--<input type="text" placeholder="Find in Queue..." class="search_queue"/>
 	<div class="sort_box">
 		<label for="sort_queue">Sort by</label>
 		<br/>
@@ -21,13 +21,13 @@
 			<option>PDF</option>
 			<option>Video</option>
 		</select>
-	</div>
+	</div>-->
 	<div id="queue_content">
 		{{#if is_clipboard}}
 			<div class="row clipboard_options text-center">
-				<a class="col-xs-3 add_items btn btn-option">Add to<br/>Queue</a>
+				<a class="col-xs-3 add_items btn btn-option">Add to<br/>Clipboard</a>
 				<a class="col-xs-3 edit_items btn btn-option">Edit<br/>Selected</a>
-				<a class="col-xs-3 move_selected_queue btn btn-option">Move<br/>Selected</a>
+				<!--<a class="col-xs-3 move_selected_queue btn btn-option">Move<br/>Selected</a>-->
 				<a class="col-xs-3 delete_items btn btn-option">Delete<br/>Selected</a>
 			</div>
 			<div id = "clipboard_list" class="list_content">
@@ -50,8 +50,8 @@
 	{{#if add_controls}}
 
 		</div>
-		{{#if is_clipboard}}
+		<!--{{#if is_clipboard}}
 				<a class="btn btn-default manage_clipboard text-center" href="clipboard">Manage Clipboard</a>
-			{{/if}}
+			{{/if}}-->
 	{{/if}}
 </div>

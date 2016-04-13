@@ -28,23 +28,22 @@
         <!-- Navigation bar -->
         <div class="navbar nav" id="top-navigation">
             <div id="logo-container">
-                <img src="{% static 'img/logo.png' %}">
+                <!--<img src="{% static 'img/logo.png' %}">-->
                 <span>Kolibri</span>
             </div>
             <div class="dropdown" id="channel-selector">
-                <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{% static 'img/logo.png' %}"><span id="channel-dropdown">Channel Name</span><span class="caret"></span></button>
+                <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><!--<img src="{% static 'img/logo.png' %}">--><span id="channel-dropdown">Channel Name</span><span class="caret"></span></button>
                 <ul class="dropdown-menu" aria-labelledby="dLabel" id="channel_select">
                   <li>Sample Item</li>
-                  <li>Sample Item2</li>
                 </ul>
             </div>
-            <div id="search-logout-container">
+            <!--<div id="search-logout-container">
                 <div class="search" id="content-search">
                     <input type="text" placeholder="Search for content in your channels..." aria-describedby="basic-addon2">
                     <div id="basic-addon2">Q</div>
                 </div>
                 <img id="logout" src="{% static 'img/power-button.png' %}">
-            </div>
+            </div>-->
         </div>
 
         {% endblock nav %}
